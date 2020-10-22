@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Wed Oct 14 15:41:16 2020" VIVADOVERSION="2020.1">
+
+  <SYSTEMINFO ARCH="artix7" DEVICE="7a100t" NAME="design_lab1" PACKAGE="csg324" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS/>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="1" FULLNAME="/bus_0" HWVERSION="1.0" INSTANCE="bus_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="bus" VLNV="xilinx.com:module_ref:bus:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="clk_per" VALUE="10"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_lab1_bus_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="O" NAME="clk" SIGIS="clk" SIGNAME="bus_0_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="i21143_0" PORT="clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="frame_l" SIGIS="undef" SIGNAME="i21143_0_frame_l">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="i21143_0" PORT="frame_l"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="ad" RIGHT="0" SIGIS="undef" SIGNAME="i21143_0_ad">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="i21143_0" PORT="ad"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="c_be_l" RIGHT="0" SIGIS="undef" SIGNAME="i21143_0_c_be_l">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="i21143_0" PORT="c_be_l"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="trdy_l" SIGIS="undef" SIGNAME="bus_0_trdy_l">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="i21143_0" PORT="trdy_l"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="irdy_l" SIGIS="undef" SIGNAME="i21143_0_irdy_l">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="i21143_0" PORT="irdy_l"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="devsel_l" SIGIS="undef" SIGNAME="bus_0_devsel_l">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="i21143_0" PORT="devsel_l"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/i21143_0" HWVERSION="1.0" INSTANCE="i21143_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="i21143" VLNV="xilinx.com:module_ref:i21143:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="clk_per" VALUE="10"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_lab1_i21143_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="bus_0_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="bus_0" PORT="clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="frame_l" SIGIS="undef" SIGNAME="i21143_0_frame_l">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="bus_0" PORT="frame_l"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="ad" RIGHT="0" SIGIS="undef" SIGNAME="i21143_0_ad">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="bus_0" PORT="ad"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="c_be_l" RIGHT="0" SIGIS="undef" SIGNAME="i21143_0_c_be_l">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="bus_0" PORT="c_be_l"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="trdy_l" SIGIS="undef" SIGNAME="bus_0_trdy_l">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="bus_0" PORT="trdy_l"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="irdy_l" SIGIS="undef" SIGNAME="i21143_0_irdy_l">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="bus_0" PORT="irdy_l"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="devsel_l" SIGIS="undef" SIGNAME="bus_0_devsel_l">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="bus_0" PORT="devsel_l"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

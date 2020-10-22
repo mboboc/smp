@@ -1,0 +1,12 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/Mada/Documents/an4/smp/AGPtoPCI/core_logic.v,1017885686,verilog,,C:/Users/Mada/Documents/an4/smp/AGPtoPCI/graphic_controller.v,,core_logic,,,,,,,,
+C:/Users/Mada/Documents/an4/smp/AGPtoPCI/graphic_controller.v,1603278930,verilog,,C:/Users/Mada/Documents/an4/smp/lab1-smp-final/lab1-smp-final.ip_user_files/bd/design_1/ip/design_1_core_logic_0_0/sim/design_1_core_logic_0_0.v,,graphic_controller,,,,,,,,
+C:/Users/Mada/Documents/an4/smp/lab1-smp-final/lab1-smp-final.ip_user_files/bd/design_1/ip/design_1_core_logic_0_0/sim/design_1_core_logic_0_0.v,1603281145,verilog,,C:/Users/Mada/Documents/an4/smp/lab1-smp-final/lab1-smp-final.ip_user_files/bd/design_1/ip/design_1_graphic_controller_0_0/sim/design_1_graphic_controller_0_0.v,,design_1_core_logic_0_0,,,,,,,,
+C:/Users/Mada/Documents/an4/smp/lab1-smp-final/lab1-smp-final.ip_user_files/bd/design_1/ip/design_1_graphic_controller_0_0/sim/design_1_graphic_controller_0_0.v,1603281145,verilog,,C:/Users/Mada/Documents/an4/smp/lab1-smp-final/lab1-smp-final.ip_user_files/bd/design_1/sim/design_1.v,,design_1_graphic_controller_0_0,,,,,,,,
+C:/Users/Mada/Documents/an4/smp/lab1-smp-final/lab1-smp-final.ip_user_files/bd/design_1/sim/design_1.v,1603281631,verilog,,C:/Users/Mada/Documents/an4/smp/lab1-smp-final/lab1-smp-final.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v,,design_1,,,,,,,,
+C:/Users/Mada/Documents/an4/smp/lab1-smp-final/lab1-smp-final.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+C:/Users/Mada/Documents/an4/smp/lab1-smp-final/lab1-smp-final.srcs/sim_1/new/simulation.v,1603281134,verilog,,,,simulation,,,,,,,,
+C:/Users/Mada/Documents/an4/smp/lab1-smp-final/lab1-smp-final.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v,1603282086,verilog,,C:/Users/Mada/Documents/an4/smp/lab1-smp-final/lab1-smp-final.srcs/sim_1/new/simulation.v,,design_1_wrapper,,,,,,,,
