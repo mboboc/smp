@@ -1,0 +1,427 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x8542D545CF41B204",
+      "device": "xc7a100tcsg324-1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2020.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "splitter_0": "",
+      "REG_0": "",
+      "MC68230_0": "",
+      "Decadd_0": "",
+      "MC68000_0": ""
+    },
+    "ports": {
+      "IPL2_0": {
+        "direction": "I"
+      },
+      "IPL1_0": {
+        "direction": "I"
+      },
+      "IPL0_0": {
+        "direction": "I"
+      },
+      "IRESET_0": {
+        "direction": "I"
+      },
+      "CLK_0": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "design_1_CLK_0",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.000",
+            "value_src": "default"
+          }
+        }
+      }
+    },
+    "components": {
+      "splitter_0": {
+        "vlnv": "xilinx.com:module_ref:splitter:1.0",
+        "xci_name": "design_1_splitter_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "splitter",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "m": {
+            "direction": "I",
+            "left": "15",
+            "right": "0"
+          },
+          "f": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "l": {
+            "direction": "O",
+            "left": "15",
+            "right": "8"
+          }
+        }
+      },
+      "REG_0": {
+        "vlnv": "xilinx.com:module_ref:REG:1.0",
+        "xci_name": "design_1_REG_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "REG",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "A": {
+            "direction": "I",
+            "left": "23",
+            "right": "1"
+          },
+          "Ao": {
+            "direction": "O",
+            "left": "5",
+            "right": "1"
+          },
+          "Ao1": {
+            "direction": "O",
+            "left": "21",
+            "right": "6"
+          },
+          "C": {
+            "direction": "O",
+            "left": "23",
+            "right": "22"
+          }
+        }
+      },
+      "MC68230_0": {
+        "vlnv": "xilinx.com:module_ref:MC68230:1.0",
+        "xci_name": "design_1_MC68230_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "MC68230",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "PAI0": {
+            "direction": "O"
+          },
+          "PAI1": {
+            "direction": "O"
+          },
+          "PAI2": {
+            "direction": "O"
+          },
+          "PAI3": {
+            "direction": "O"
+          },
+          "PAI4": {
+            "direction": "O"
+          },
+          "PAI5": {
+            "direction": "O"
+          },
+          "PAI6": {
+            "direction": "O"
+          },
+          "PA7": {
+            "direction": "I"
+          },
+          "Hdoi": {
+            "direction": "O"
+          },
+          "H1": {
+            "direction": "I"
+          },
+          "PC0": {
+            "direction": "I"
+          },
+          "PC1": {
+            "direction": "I"
+          },
+          "D": {
+            "direction": "I",
+            "left": "0",
+            "right": "7"
+          },
+          "RSi": {
+            "direction": "I",
+            "left": "5",
+            "right": "1"
+          },
+          "CS": {
+            "direction": "I"
+          },
+          "PC6": {
+            "direction": "I"
+          },
+          "PIC5": {
+            "direction": "O"
+          },
+          "DTACKi": {
+            "direction": "O"
+          },
+          "RW": {
+            "direction": "I"
+          },
+          "RESET": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "CLK": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "RESET",
+                "value_src": "constant"
+              },
+              "CLK_DOMAIN": {
+                "value": "design_1_CLK_0",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "ceva": {
+            "direction": "O"
+          }
+        }
+      },
+      "Decadd_0": {
+        "vlnv": "xilinx.com:module_ref:Decadd:1.0",
+        "xci_name": "design_1_Decadd_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "Decadd",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "Ai": {
+            "direction": "I",
+            "left": "21",
+            "right": "6"
+          },
+          "LDSi": {
+            "direction": "I"
+          },
+          "UDSi": {
+            "direction": "I"
+          },
+          "CSo": {
+            "direction": "O"
+          },
+          "CLK": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "CLK_DOMAIN": {
+                "value": "design_1_CLK_0",
+                "value_src": "default_prop"
+              }
+            }
+          }
+        }
+      },
+      "MC68000_0": {
+        "vlnv": "xilinx.com:module_ref:MC68000:1.0",
+        "xci_name": "design_1_MC68000_0_1",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "MC68000",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "CLK": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "RESET",
+                "value_src": "constant"
+              },
+              "CLK_DOMAIN": {
+                "value": "design_1_CLK_0",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "D": {
+            "direction": "O",
+            "left": "15",
+            "right": "0"
+          },
+          "A": {
+            "direction": "O",
+            "left": "23",
+            "right": "1"
+          },
+          "LDS": {
+            "direction": "O"
+          },
+          "FC2": {
+            "direction": "O"
+          },
+          "FC1": {
+            "direction": "O"
+          },
+          "FC0": {
+            "direction": "O"
+          },
+          "AS": {
+            "direction": "O"
+          },
+          "UDS": {
+            "direction": "O"
+          },
+          "RW": {
+            "direction": "O"
+          },
+          "RESET": {
+            "type": "rst",
+            "direction": "O"
+          },
+          "DTACK": {
+            "direction": "I"
+          },
+          "IPL2": {
+            "direction": "I"
+          },
+          "IPL1": {
+            "direction": "I"
+          },
+          "IPL0": {
+            "direction": "I"
+          },
+          "IRESET": {
+            "direction": "I"
+          },
+          "PC": {
+            "direction": "O",
+            "left": "2",
+            "right": "0"
+          }
+        }
+      }
+    },
+    "nets": {
+      "MC68000_0_D": {
+        "ports": [
+          "MC68000_0/D",
+          "splitter_0/m"
+        ]
+      },
+      "REG_0_Ao1": {
+        "ports": [
+          "REG_0/Ao1",
+          "Decadd_0/Ai"
+        ]
+      },
+      "REG_0_Ao": {
+        "ports": [
+          "REG_0/Ao",
+          "MC68230_0/RSi"
+        ]
+      },
+      "Decadd_0_CSo": {
+        "ports": [
+          "Decadd_0/CSo",
+          "MC68230_0/CS"
+        ]
+      },
+      "MC68000_0_A": {
+        "ports": [
+          "MC68000_0/A",
+          "REG_0/A"
+        ]
+      },
+      "MC68000_0_UDS": {
+        "ports": [
+          "MC68000_0/UDS",
+          "Decadd_0/UDSi"
+        ]
+      },
+      "MC68000_0_RW": {
+        "ports": [
+          "MC68000_0/RW",
+          "MC68230_0/RW"
+        ]
+      },
+      "MC68000_0_RESET": {
+        "ports": [
+          "MC68000_0/RESET",
+          "MC68230_0/RESET"
+        ]
+      },
+      "MC68000_0_LDS": {
+        "ports": [
+          "MC68000_0/LDS",
+          "Decadd_0/LDSi"
+        ]
+      },
+      "IPL2_0_1": {
+        "ports": [
+          "IPL2_0",
+          "MC68000_0/IPL2"
+        ]
+      },
+      "IPL1_0_1": {
+        "ports": [
+          "IPL1_0",
+          "MC68000_0/IPL1"
+        ]
+      },
+      "IPL0_0_1": {
+        "ports": [
+          "IPL0_0",
+          "MC68000_0/IPL0"
+        ]
+      },
+      "IRESET_0_1": {
+        "ports": [
+          "IRESET_0",
+          "MC68000_0/IRESET"
+        ]
+      },
+      "CLK_0_1": {
+        "ports": [
+          "CLK_0",
+          "MC68000_0/CLK",
+          "MC68230_0/CLK",
+          "Decadd_0/CLK"
+        ]
+      },
+      "MC68230_0_DTACKi": {
+        "ports": [
+          "MC68230_0/DTACKi",
+          "MC68000_0/DTACK"
+        ]
+      },
+      "splitter_0_f": {
+        "ports": [
+          "splitter_0/f",
+          "MC68230_0/D"
+        ]
+      }
+    }
+  }
+}

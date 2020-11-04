@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="143293fs"></ZoomEndTime>
+      <Cursor1Time time="1000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="44"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="14" />
+   <wvobject type="logic" fp_name="/test/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/sim_lab1/design_1_i/MC68000_0_D">
+      <obj_property name="ElementShortName">MC68000_0_D[15:0]</obj_property>
+      <obj_property name="ObjectShortName">MC68000_0_D[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/sim_lab1/design_1_i/MC68000_0/IPL2">
+      <obj_property name="ElementShortName">IPL2</obj_property>
+      <obj_property name="ObjectShortName">IPL2</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/sim_lab1/design_1_i/MC68000_0/IPL1">
+      <obj_property name="ElementShortName">IPL1</obj_property>
+      <obj_property name="ObjectShortName">IPL1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/sim_lab1/design_1_i/MC68000_0/IPL0">
+      <obj_property name="ElementShortName">IPL0</obj_property>
+      <obj_property name="ObjectShortName">IPL0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/sim_lab1/design_1_i/MC68000_0/LDS">
+      <obj_property name="ElementShortName">LDS</obj_property>
+      <obj_property name="ObjectShortName">LDS</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/sim_lab1/design_1_i/MC68000_0/UDS">
+      <obj_property name="ElementShortName">UDS</obj_property>
+      <obj_property name="ObjectShortName">UDS</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/sim_lab1/design_1_i/MC68000_0/DTACK">
+      <obj_property name="ElementShortName">DTACK</obj_property>
+      <obj_property name="ObjectShortName">DTACK</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/sim_lab1/design_1_i/MC68000_0/RW">
+      <obj_property name="ElementShortName">RW</obj_property>
+      <obj_property name="ObjectShortName">RW</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/sim_lab1/design_1_i/MC68000_0/A">
+      <obj_property name="ElementShortName">A[23:1]</obj_property>
+      <obj_property name="ObjectShortName">A[23:1]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/sim_lab1/design_1_i/REG_0/A">
+      <obj_property name="ElementShortName">A[23:1]</obj_property>
+      <obj_property name="ObjectShortName">A[23:1]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/sim_lab1/design_1_i/REG_0/Ao1">
+      <obj_property name="ElementShortName">Ao1[21:6]</obj_property>
+      <obj_property name="ObjectShortName">Ao1[21:6]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/sim_lab1/design_1_i/REG_0/C">
+      <obj_property name="ElementShortName">C[23:22]</obj_property>
+      <obj_property name="ObjectShortName">C[23:22]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/sim_lab1/design_1_i/REG_0/Ao">
+      <obj_property name="ElementShortName">Ao[5:1]</obj_property>
+      <obj_property name="ObjectShortName">Ao[5:1]</obj_property>
+   </wvobject>
+</wave_config>

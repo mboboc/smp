@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Wed Nov  4 15:43:18 2020" VIVADOVERSION="2020.1">
+
+  <SYSTEMINFO ARCH="artix7" DEVICE="7a100t" NAME="design_1" PACKAGE="csg324" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" NAME="IPL2_0" SIGIS="undef" SIGNAME="External_Ports_IPL2_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="MC68000_0" PORT="IPL2"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="IPL1_0" SIGIS="undef" SIGNAME="External_Ports_IPL1_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="MC68000_0" PORT="IPL1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="IPL0_0" SIGIS="undef" SIGNAME="External_Ports_IPL0_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="MC68000_0" PORT="IPL0"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="IRESET_0" SIGIS="undef" SIGNAME="External_Ports_IRESET_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="MC68000_0" PORT="IRESET"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT CLKFREQUENCY="100000000" DIR="I" NAME="CLK_0" SIGIS="clk" SIGNAME="External_Ports_CLK_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="MC68000_0" PORT="CLK"/>
+        <CONNECTION INSTANCE="MC68230_0" PORT="CLK"/>
+        <CONNECTION INSTANCE="Decadd_0" PORT="CLK"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="1" FULLNAME="/Decadd_0" HWVERSION="1.0" INSTANCE="Decadd_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="Decadd" VLNV="xilinx.com:module_ref:Decadd:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_Decadd_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="21" NAME="Ai" RIGHT="6" SIGIS="undef" SIGNAME="REG_0_Ao1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="REG_0" PORT="Ao1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="LDSi" SIGIS="undef" SIGNAME="MC68000_0_LDS">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MC68000_0" PORT="LDS"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="UDSi" SIGIS="undef" SIGNAME="MC68000_0_UDS">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MC68000_0" PORT="UDS"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="CSo" SIGIS="undef" SIGNAME="Decadd_0_CSo">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MC68230_0" PORT="CS"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="CLK" SIGIS="clk" SIGNAME="External_Ports_CLK_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="CLK_0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/MC68000_0" HWVERSION="1.0" INSTANCE="MC68000_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="MC68000" VLNV="xilinx.com:module_ref:MC68000:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_MC68000_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="CLK" SIGIS="clk" SIGNAME="External_Ports_CLK_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="CLK_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="15" NAME="D" RIGHT="0" SIGIS="undef" SIGNAME="MC68000_0_D">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="splitter_0" PORT="m"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="23" NAME="A" RIGHT="1" SIGIS="undef" SIGNAME="MC68000_0_A">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="REG_0" PORT="A"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="LDS" SIGIS="undef" SIGNAME="MC68000_0_LDS">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Decadd_0" PORT="LDSi"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="FC2" SIGIS="undef"/>
+        <PORT DIR="O" NAME="FC1" SIGIS="undef"/>
+        <PORT DIR="O" NAME="FC0" SIGIS="undef"/>
+        <PORT DIR="O" NAME="AS" SIGIS="undef"/>
+        <PORT DIR="O" NAME="UDS" SIGIS="undef" SIGNAME="MC68000_0_UDS">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Decadd_0" PORT="UDSi"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="RW" SIGIS="undef" SIGNAME="MC68000_0_RW">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MC68230_0" PORT="RW"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="RESET" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="MC68000_0_RESET">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MC68230_0" PORT="RESET"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="DTACK" SIGIS="undef" SIGNAME="MC68230_0_DTACKi">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MC68230_0" PORT="DTACKi"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="IPL2" SIGIS="undef" SIGNAME="External_Ports_IPL2_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="IPL2_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="IPL1" SIGIS="undef" SIGNAME="External_Ports_IPL1_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="IPL1_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="IPL0" SIGIS="undef" SIGNAME="External_Ports_IPL0_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="IPL0_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="IRESET" SIGIS="undef" SIGNAME="External_Ports_IRESET_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="IRESET_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="2" NAME="PC" RIGHT="0" SIGIS="undef"/>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/MC68230_0" HWVERSION="1.0" INSTANCE="MC68230_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="MC68230" VLNV="xilinx.com:module_ref:MC68230:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_MC68230_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" NAME="PAI0" SIGIS="undef"/>
+        <PORT DIR="O" NAME="PAI1" SIGIS="undef"/>
+        <PORT DIR="O" NAME="PAI2" SIGIS="undef"/>
+        <PORT DIR="O" NAME="PAI3" SIGIS="undef"/>
+        <PORT DIR="O" NAME="PAI4" SIGIS="undef"/>
+        <PORT DIR="O" NAME="PAI5" SIGIS="undef"/>
+        <PORT DIR="O" NAME="PAI6" SIGIS="undef"/>
+        <PORT DIR="I" NAME="PA7" SIGIS="undef"/>
+        <PORT DIR="O" NAME="Hdoi" SIGIS="undef"/>
+        <PORT DIR="I" NAME="H1" SIGIS="undef"/>
+        <PORT DIR="I" NAME="PC0" SIGIS="undef"/>
+        <PORT DIR="I" NAME="PC1" SIGIS="undef"/>
+        <PORT DIR="I" LEFT="0" NAME="D" RIGHT="7" SIGIS="undef" SIGNAME="splitter_0_f">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="splitter_0" PORT="f"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="5" NAME="RSi" RIGHT="1" SIGIS="undef" SIGNAME="REG_0_Ao">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="REG_0" PORT="Ao"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="CS" SIGIS="undef" SIGNAME="Decadd_0_CSo">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Decadd_0" PORT="CSo"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="PC6" SIGIS="undef"/>
+        <PORT DIR="O" NAME="PIC5" SIGIS="undef"/>
+        <PORT DIR="O" NAME="DTACKi" SIGIS="undef" SIGNAME="MC68230_0_DTACKi">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MC68000_0" PORT="DTACK"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="RW" SIGIS="undef" SIGNAME="MC68000_0_RW">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MC68000_0" PORT="RW"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="RESET" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="MC68000_0_RESET">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MC68000_0" PORT="RESET"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="CLK" SIGIS="clk" SIGNAME="External_Ports_CLK_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="CLK_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="ceva" SIGIS="undef"/>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/REG_0" HWVERSION="1.0" INSTANCE="REG_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="REG" VLNV="xilinx.com:module_ref:REG:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_REG_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="23" NAME="A" RIGHT="1" SIGIS="undef" SIGNAME="MC68000_0_A">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MC68000_0" PORT="A"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="5" NAME="Ao" RIGHT="1" SIGIS="undef" SIGNAME="REG_0_Ao">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MC68230_0" PORT="RSi"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="21" NAME="Ao1" RIGHT="6" SIGIS="undef" SIGNAME="REG_0_Ao1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Decadd_0" PORT="Ai"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="23" NAME="C" RIGHT="22" SIGIS="undef"/>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/splitter_0" HWVERSION="1.0" INSTANCE="splitter_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="splitter" VLNV="xilinx.com:module_ref:splitter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_splitter_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="15" NAME="m" RIGHT="0" SIGIS="undef" SIGNAME="MC68000_0_D">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MC68000_0" PORT="D"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="7" NAME="f" RIGHT="0" SIGIS="undef" SIGNAME="splitter_0_f">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MC68230_0" PORT="D"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="15" NAME="l" RIGHT="8" SIGIS="undef"/>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>
