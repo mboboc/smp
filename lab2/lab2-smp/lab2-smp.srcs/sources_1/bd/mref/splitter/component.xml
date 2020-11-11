@@ -128,10 +128,10 @@
         <xilinx:designToolContext>IPI</xilinx:designToolContext>
       </xilinx:designToolContexts>
       <xilinx:coreRevision>1</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2020-11-04T13:17:09Z</xilinx:coreCreationDateTime>
+      <xilinx:coreCreationDateTime>2020-11-11T12:26:01Z</xilinx:coreCreationDateTime>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
-      <xilinx:xilinxVersion>2020.1</xilinx:xilinxVersion>
+      <xilinx:xilinxVersion>2020.1.1</xilinx:xilinxVersion>
     </xilinx:packagingInfo>
   </spirit:vendorExtensions>
 </spirit:component>

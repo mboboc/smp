@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Wed Nov  4 15:43:18 2020" VIVADOVERSION="2020.1">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Wed Nov 11 14:51:32 2020" VIVADOVERSION="2020.1.1">
 
   <SYSTEMINFO ARCH="artix7" DEVICE="7a100t" NAME="design_1" PACKAGE="csg324" SPEEDGRADE="-1"/>
 
@@ -29,6 +29,26 @@
         <CONNECTION INSTANCE="MC68000_0" PORT="CLK"/>
         <CONNECTION INSTANCE="MC68230_0" PORT="CLK"/>
         <CONNECTION INSTANCE="Decadd_0" PORT="CLK"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="PA7_0" SIGIS="undef" SIGNAME="External_Ports_PA7_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="MC68230_0" PORT="PA7"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="H1_0" SIGIS="undef" SIGNAME="External_Ports_H1_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="MC68230_0" PORT="H1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="PC0_0" SIGIS="undef" SIGNAME="External_Ports_PC0_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="MC68230_0" PORT="PC0"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="PC1_0" SIGIS="undef" SIGNAME="External_Ports_PC1_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="MC68230_0" PORT="PC1"/>
       </CONNECTIONS>
     </PORT>
   </EXTERNALPORTS>
@@ -160,11 +180,27 @@
         <PORT DIR="O" NAME="PAI4" SIGIS="undef"/>
         <PORT DIR="O" NAME="PAI5" SIGIS="undef"/>
         <PORT DIR="O" NAME="PAI6" SIGIS="undef"/>
-        <PORT DIR="I" NAME="PA7" SIGIS="undef"/>
+        <PORT DIR="I" NAME="PA7" SIGIS="undef" SIGNAME="External_Ports_PA7_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="PA7_0"/>
+          </CONNECTIONS>
+        </PORT>
         <PORT DIR="O" NAME="Hdoi" SIGIS="undef"/>
-        <PORT DIR="I" NAME="H1" SIGIS="undef"/>
-        <PORT DIR="I" NAME="PC0" SIGIS="undef"/>
-        <PORT DIR="I" NAME="PC1" SIGIS="undef"/>
+        <PORT DIR="I" NAME="H1" SIGIS="undef" SIGNAME="External_Ports_H1_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="H1_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="PC0" SIGIS="undef" SIGNAME="External_Ports_PC0_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="PC0_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="PC1" SIGIS="undef" SIGNAME="External_Ports_PC1_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="PC1_0"/>
+          </CONNECTIONS>
+        </PORT>
         <PORT DIR="I" LEFT="0" NAME="D" RIGHT="7" SIGIS="undef" SIGNAME="splitter_0_f">
           <CONNECTIONS>
             <CONNECTION INSTANCE="splitter_0" PORT="f"/>

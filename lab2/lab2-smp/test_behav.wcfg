@@ -11,22 +11,23 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="0fs"></ZoomStartTime>
-      <ZoomEndTime time="143293fs"></ZoomEndTime>
-      <Cursor1Time time="1000000fs"></Cursor1Time>
+      <ZoomStartTime time="4009fs"></ZoomStartTime>
+      <ZoomEndTime time="167410fs"></ZoomEndTime>
+      <Cursor1Time time="250000fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="44"></NameColumnWidth>
-      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+      <NameColumnWidth column_width="164"></NameColumnWidth>
+      <ValueColumnWidth column_width="78"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="14" />
-   <wvobject type="logic" fp_name="/test/clk">
-      <obj_property name="ElementShortName">clk</obj_property>
-      <obj_property name="ObjectShortName">clk</obj_property>
-   </wvobject>
+   <WVObjectSize size="19" />
    <wvobject type="array" fp_name="/test/sim_lab1/design_1_i/MC68000_0_D">
       <obj_property name="ElementShortName">MC68000_0_D[15:0]</obj_property>
       <obj_property name="ObjectShortName">MC68000_0_D[15:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/IRESET_0">
+      <obj_property name="ElementShortName">IRESET_0</obj_property>
+      <obj_property name="ObjectShortName">IRESET_0</obj_property>
    </wvobject>
    <wvobject type="logic" fp_name="/test/sim_lab1/design_1_i/MC68000_0/IPL2">
       <obj_property name="ElementShortName">IPL2</obj_property>
@@ -39,6 +40,18 @@
    <wvobject type="logic" fp_name="/test/sim_lab1/design_1_i/MC68000_0/IPL0">
       <obj_property name="ElementShortName">IPL0</obj_property>
       <obj_property name="ObjectShortName">IPL0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/sim_lab1/design_1_i/MC68230_0/PC0">
+      <obj_property name="ElementShortName">PC0</obj_property>
+      <obj_property name="ObjectShortName">PC0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/sim_lab1/design_1_i/MC68230_0/PC1">
+      <obj_property name="ElementShortName">PC1</obj_property>
+      <obj_property name="ObjectShortName">PC1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/sim_lab1/design_1_i/MC68230_0/H1">
+      <obj_property name="ElementShortName">H1</obj_property>
+      <obj_property name="ObjectShortName">H1</obj_property>
    </wvobject>
    <wvobject type="logic" fp_name="/test/sim_lab1/design_1_i/MC68000_0/LDS">
       <obj_property name="ElementShortName">LDS</obj_property>
@@ -55,6 +68,10 @@
    <wvobject type="logic" fp_name="/test/sim_lab1/design_1_i/MC68000_0/RW">
       <obj_property name="ElementShortName">RW</obj_property>
       <obj_property name="ObjectShortName">RW</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/sim_lab1/design_1_i/MC68000_0/inst/PC">
+      <obj_property name="ElementShortName">PC[2:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[2:0]</obj_property>
    </wvobject>
    <wvobject type="array" fp_name="/test/sim_lab1/design_1_i/MC68000_0/A">
       <obj_property name="ElementShortName">A[23:1]</obj_property>
@@ -75,5 +92,9 @@
    <wvobject type="array" fp_name="/test/sim_lab1/design_1_i/REG_0/Ao">
       <obj_property name="ElementShortName">Ao[5:1]</obj_property>
       <obj_property name="ObjectShortName">Ao[5:1]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/CLK_0">
+      <obj_property name="ElementShortName">CLK_0</obj_property>
+      <obj_property name="ObjectShortName">CLK_0</obj_property>
    </wvobject>
 </wave_config>

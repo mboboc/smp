@@ -1,38 +1,46 @@
 {
    "ActiveEmotionalView":"Default View",
-   "Default View_ScaleFactor":"0.798886",
-   "Default View_TopLeft":"-756,-104",
+   "Default View_ScaleFactor":"0.695471",
+   "Default View_TopLeft":"-765,-104",
    "ExpandedHierarchyInLayout":"",
    "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:9.0 TLS
 #  -string -flagsOSRD
-preplace port IPL2_0 -pg 1 -lvl 0 -x -640 -y 260 -defaultsOSRD
-preplace port IPL1_0 -pg 1 -lvl 0 -x -640 -y 280 -defaultsOSRD
-preplace port IPL0_0 -pg 1 -lvl 0 -x -640 -y 300 -defaultsOSRD
-preplace port IRESET_0 -pg 1 -lvl 0 -x -640 -y 320 -defaultsOSRD
-preplace port CLK_0 -pg 1 -lvl 0 -x -640 -y 220 -defaultsOSRD
-preplace inst splitter_0 -pg 1 -lvl 2 -x -260 -y 20 -defaultsOSRD
-preplace inst REG_0 -pg 1 -lvl 4 -x 190 -y 190 -defaultsOSRD
-preplace inst MC68230_0 -pg 1 -lvl 6 -x 670 -y 240 -defaultsOSRD
-preplace inst Decadd_0 -pg 1 -lvl 5 -x 430 -y 390 -defaultsOSRD
-preplace inst MC68000_0 -pg 1 -lvl 1 -x -500 -y 270 -defaultsOSRD
-preplace netloc MC68000_0_D 1 1 1 -380 20n
-preplace netloc REG_0_Ao1 1 4 1 310 190n
-preplace netloc REG_0_Ao 1 4 2 NJ 170 530
-preplace netloc Decadd_0_CSo 1 5 1 550 260n
-preplace netloc MC68000_0_A 1 1 3 N 190 NJ 190 NJ
-preplace netloc MC68000_0_UDS 1 1 4 -390 400 NJ 400 NJ 400 NJ
-preplace netloc MC68000_0_RW 1 1 5 -370J 300 NJ 300 NJ 300 NJ 300 N
-preplace netloc MC68000_0_RESET 1 1 5 -380J 290 NJ 290 NJ 290 NJ 290 530
-preplace netloc MC68000_0_LDS 1 1 4 -370 110 NJ 110 NJ 110 320J
+preplace port IPL2_0 -pg 1 -lvl 0 -x -650 -y 260 -defaultsOSRD
+preplace port IPL1_0 -pg 1 -lvl 0 -x -650 -y 340 -defaultsOSRD
+preplace port IPL0_0 -pg 1 -lvl 0 -x -650 -y 300 -defaultsOSRD
+preplace port IRESET_0 -pg 1 -lvl 0 -x -650 -y 320 -defaultsOSRD
+preplace port CLK_0 -pg 1 -lvl 0 -x -650 -y 220 -defaultsOSRD
+preplace port PA7_0 -pg 1 -lvl 0 -x -650 -y 140 -defaultsOSRD
+preplace port H1_0 -pg 1 -lvl 0 -x -650 -y 160 -defaultsOSRD
+preplace port PC0_0 -pg 1 -lvl 0 -x -650 -y 180 -defaultsOSRD
+preplace port PC1_0 -pg 1 -lvl 0 -x -650 -y 200 -defaultsOSRD
+preplace inst REG_0 -pg 1 -lvl 3 -x 190 -y 190 -defaultsOSRD
+preplace inst MC68230_0 -pg 1 -lvl 5 -x 690 -y 240 -defaultsOSRD
+preplace inst Decadd_0 -pg 1 -lvl 4 -x 430 -y 390 -defaultsOSRD
+preplace inst MC68000_0 -pg 1 -lvl 1 -x -470 -y 270 -defaultsOSRD
+preplace inst splitter_0 -pg 1 -lvl 2 -x -200 -y 20 -defaultsOSRD
+preplace netloc MC68000_0_D 1 1 1 -340 20n
+preplace netloc REG_0_Ao1 1 3 1 310 190n
+preplace netloc REG_0_Ao 1 3 2 NJ 170 530
+preplace netloc Decadd_0_CSo 1 4 1 570 260n
+preplace netloc MC68000_0_A 1 1 2 N 190 NJ
+preplace netloc MC68000_0_UDS 1 1 3 -360 400 NJ 400 NJ
+preplace netloc MC68000_0_RW 1 1 4 -320J 300 NJ 300 NJ 300 N
+preplace netloc MC68000_0_RESET 1 1 4 -340J 290 NJ 290 NJ 290 530
+preplace netloc MC68000_0_LDS 1 1 3 N 210 -40J 110 320J
 preplace netloc IPL2_0_1 1 0 1 N 260
-preplace netloc IPL1_0_1 1 0 1 N 280
+preplace netloc IPL1_0_1 1 0 1 -600 280n
 preplace netloc IPL0_0_1 1 0 1 N 300
 preplace netloc IRESET_0_1 1 0 1 N 320
-preplace netloc CLK_0_1 1 0 6 -620 90 N 90 N 90 N 90 330 280 540
-preplace netloc MC68230_0_DTACKi 1 0 7 -610 100 NJ 100 NJ 100 -20J 80 NJ 80 NJ 80 780
-preplace netloc splitter_0_f 1 2 4 NJ 10 NJ 10 NJ 10 550
-levelinfo -pg 1 -640 -500 -260 -40 190 430 670 910 1040
-pagesize -pg 1 -db -bbox -sgen -760 -430 1040 1400
+preplace netloc CLK_0_1 1 0 5 -610 60 -310 110 -60 100 330 280 550
+preplace netloc MC68230_0_DTACKi 1 0 6 -580 80 -330J 120 -80J 50 NJ 50 NJ 50 800
+preplace netloc splitter_0_f 1 2 3 NJ 10 NJ 10 570
+preplace netloc PA7_0_1 1 0 5 -620J 90 NJ 90 NJ 90 NJ 90 560J
+preplace netloc H1_0_1 1 0 5 -630J 70 -320J 100 -90J 60 NJ 60 580J
+preplace netloc PC0_0_1 1 0 5 -600J 100 -350J 140 -50J 80 NJ 80 540J
+preplace netloc PC1_0_1 1 0 5 -590J 110 -360J 130 -70J 70 NJ 70 550J
+levelinfo -pg 1 -650 -470 -200 190 430 690 910
+pagesize -pg 1 -db -bbox -sgen -770 -430 910 1400
 "
 }
-
+0

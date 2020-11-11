@@ -165,10 +165,14 @@ proc create_root_design { parentCell } {
 
   # Create ports
   set CLK_0 [ create_bd_port -dir I -type clk CLK_0 ]
+  set H1_0 [ create_bd_port -dir I H1_0 ]
   set IPL0_0 [ create_bd_port -dir I IPL0_0 ]
   set IPL1_0 [ create_bd_port -dir I IPL1_0 ]
   set IPL2_0 [ create_bd_port -dir I IPL2_0 ]
   set IRESET_0 [ create_bd_port -dir I IRESET_0 ]
+  set PA7_0 [ create_bd_port -dir I PA7_0 ]
+  set PC0_0 [ create_bd_port -dir I PC0_0 ]
+  set PC1_0 [ create_bd_port -dir I PC1_0 ]
 
   # Create instance: Decadd_0, and set properties
   set block_name Decadd
@@ -228,6 +232,7 @@ proc create_root_design { parentCell } {
   # Create port connections
   connect_bd_net -net CLK_0_1 [get_bd_ports CLK_0] [get_bd_pins Decadd_0/CLK] [get_bd_pins MC68000_0/CLK] [get_bd_pins MC68230_0/CLK]
   connect_bd_net -net Decadd_0_CSo [get_bd_pins Decadd_0/CSo] [get_bd_pins MC68230_0/CS]
+  connect_bd_net -net H1_0_1 [get_bd_ports H1_0] [get_bd_pins MC68230_0/H1]
   connect_bd_net -net IPL0_0_1 [get_bd_ports IPL0_0] [get_bd_pins MC68000_0/IPL0]
   connect_bd_net -net IPL1_0_1 [get_bd_ports IPL1_0] [get_bd_pins MC68000_0/IPL1]
   connect_bd_net -net IPL2_0_1 [get_bd_ports IPL2_0] [get_bd_pins MC68000_0/IPL2]
@@ -239,6 +244,9 @@ proc create_root_design { parentCell } {
   connect_bd_net -net MC68000_0_RW [get_bd_pins MC68000_0/RW] [get_bd_pins MC68230_0/RW]
   connect_bd_net -net MC68000_0_UDS [get_bd_pins Decadd_0/UDSi] [get_bd_pins MC68000_0/UDS]
   connect_bd_net -net MC68230_0_DTACKi [get_bd_pins MC68000_0/DTACK] [get_bd_pins MC68230_0/DTACKi]
+  connect_bd_net -net PA7_0_1 [get_bd_ports PA7_0] [get_bd_pins MC68230_0/PA7]
+  connect_bd_net -net PC0_0_1 [get_bd_ports PC0_0] [get_bd_pins MC68230_0/PC0]
+  connect_bd_net -net PC1_0_1 [get_bd_ports PC1_0] [get_bd_pins MC68230_0/PC1]
   connect_bd_net -net REG_0_Ao [get_bd_pins MC68230_0/RSi] [get_bd_pins REG_0/Ao]
   connect_bd_net -net REG_0_Ao1 [get_bd_pins Decadd_0/Ai] [get_bd_pins REG_0/Ao1]
   connect_bd_net -net splitter_0_f [get_bd_pins MC68230_0/D] [get_bd_pins splitter_0/f]

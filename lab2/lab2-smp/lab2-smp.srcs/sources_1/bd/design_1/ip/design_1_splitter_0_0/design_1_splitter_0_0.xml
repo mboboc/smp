@@ -30,7 +30,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Wed Nov 04 13:43:17 UTC 2020</spirit:value>
+            <spirit:value>Wed Nov 11 12:26:22 UTC 2020</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
@@ -114,7 +114,7 @@
       <xilinx:coreRevision>1</xilinx:coreRevision>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
-      <xilinx:xilinxVersion>2020.1</xilinx:xilinxVersion>
+      <xilinx:xilinxVersion>2020.1.1</xilinx:xilinxVersion>
     </xilinx:packagingInfo>
   </spirit:vendorExtensions>
 </spirit:component>

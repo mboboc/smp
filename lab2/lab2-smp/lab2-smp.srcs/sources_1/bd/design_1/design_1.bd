@@ -1,20 +1,20 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0x8542D545CF41B204",
+      "boundary_crc": "0xC0D1B68F87351638",
       "device": "xc7a100tcsg324-1",
       "name": "design_1",
       "rev_ctrl_bd_flag": "RevCtrlBdOff",
       "synth_flow_mode": "Hierarchical",
-      "tool_version": "2020.1",
+      "tool_version": "2020.1.1",
       "validated": "true"
     },
     "design_tree": {
-      "splitter_0": "",
       "REG_0": "",
       "MC68230_0": "",
       "Decadd_0": "",
-      "MC68000_0": ""
+      "MC68000_0": "",
+      "splitter_0": ""
     },
     "ports": {
       "IPL2_0": {
@@ -54,35 +54,21 @@
             "value_src": "default"
           }
         }
+      },
+      "PA7_0": {
+        "direction": "I"
+      },
+      "H1_0": {
+        "direction": "I"
+      },
+      "PC0_0": {
+        "direction": "I"
+      },
+      "PC1_0": {
+        "direction": "I"
       }
     },
     "components": {
-      "splitter_0": {
-        "vlnv": "xilinx.com:module_ref:splitter:1.0",
-        "xci_name": "design_1_splitter_0_0",
-        "reference_info": {
-          "ref_type": "hdl",
-          "ref_name": "splitter",
-          "boundary_crc": "0x0"
-        },
-        "ports": {
-          "m": {
-            "direction": "I",
-            "left": "15",
-            "right": "0"
-          },
-          "f": {
-            "direction": "O",
-            "left": "7",
-            "right": "0"
-          },
-          "l": {
-            "direction": "O",
-            "left": "15",
-            "right": "8"
-          }
-        }
-      },
       "REG_0": {
         "vlnv": "xilinx.com:module_ref:REG:1.0",
         "xci_name": "design_1_REG_0_0",
@@ -321,6 +307,32 @@
             "right": "0"
           }
         }
+      },
+      "splitter_0": {
+        "vlnv": "xilinx.com:module_ref:splitter:1.0",
+        "xci_name": "design_1_splitter_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "splitter",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "m": {
+            "direction": "I",
+            "left": "15",
+            "right": "0"
+          },
+          "f": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "l": {
+            "direction": "O",
+            "left": "15",
+            "right": "8"
+          }
+        }
       }
     },
     "nets": {
@@ -420,6 +432,30 @@
         "ports": [
           "splitter_0/f",
           "MC68230_0/D"
+        ]
+      },
+      "PA7_0_1": {
+        "ports": [
+          "PA7_0",
+          "MC68230_0/PA7"
+        ]
+      },
+      "H1_0_1": {
+        "ports": [
+          "H1_0",
+          "MC68230_0/H1"
+        ]
+      },
+      "PC0_0_1": {
+        "ports": [
+          "PC0_0",
+          "MC68230_0/PC0"
+        ]
+      },
+      "PC1_0_1": {
+        "ports": [
+          "PC1_0",
+          "MC68230_0/PC1"
         ]
       }
     }

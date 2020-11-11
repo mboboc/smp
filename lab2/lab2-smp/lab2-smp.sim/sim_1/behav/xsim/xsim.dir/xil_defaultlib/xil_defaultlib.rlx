@@ -1,7 +1,7 @@
 0.7
-2020.1
-May 27 2020
-19:59:15
+2020.1.1
+Aug  5 2020
+23:02:45
 /home/mada/an4/smp/lab2/ImprimantaToMC68000/DECADD.V,922448314,verilog,,/home/mada/an4/smp/lab2/ImprimantaToMC68000/MC68000PI.V,,Decadd,,,,,,,,
 /home/mada/an4/smp/lab2/ImprimantaToMC68000/MC68000PI.V,922448022,verilog,,/home/mada/an4/smp/lab2/lab2-smp/lab2-smp.ip_user_files/bd/design_1/ip/design_1_splitter_0_0/sim/design_1_splitter_0_0.v,,MC68000,,,,,,,,
 /home/mada/an4/smp/lab2/ImprimantaToMC68000/MC68230.V,922444940,verilog,,/home/mada/an4/smp/lab2/ImprimantaToMC68000/DECADD.V,,MC68230,,,,,,,,
@@ -10,9 +10,9 @@ May 27 2020
 /home/mada/an4/smp/lab2/lab2-smp/lab2-smp.ip_user_files/bd/design_1/ip/design_1_MC68000_0_1/sim/design_1_MC68000_0_1.v,1604497398,verilog,,/home/mada/an4/smp/lab2/lab2-smp/lab2-smp.ip_user_files/bd/design_1/sim/design_1.v,,design_1_MC68000_0_1,,,,,,,,
 /home/mada/an4/smp/lab2/lab2-smp/lab2-smp.ip_user_files/bd/design_1/ip/design_1_MC68230_0_0/sim/design_1_MC68230_0_0.v,1604497398,verilog,,/home/mada/an4/smp/lab2/lab2-smp/lab2-smp.ip_user_files/bd/design_1/ip/design_1_Decadd_0_0/sim/design_1_Decadd_0_0.v,,design_1_MC68230_0_0,,,,,,,,
 /home/mada/an4/smp/lab2/lab2-smp/lab2-smp.ip_user_files/bd/design_1/ip/design_1_REG_0_0/sim/design_1_REG_0_0.v,1604497398,verilog,,/home/mada/an4/smp/lab2/lab2-smp/lab2-smp.ip_user_files/bd/design_1/ip/design_1_MC68230_0_0/sim/design_1_MC68230_0_0.v,,design_1_REG_0_0,,,,,,,,
-/home/mada/an4/smp/lab2/lab2-smp/lab2-smp.ip_user_files/bd/design_1/ip/design_1_splitter_0_0/sim/design_1_splitter_0_0.v,1604497397,verilog,,/home/mada/an4/smp/lab2/lab2-smp/lab2-smp.ip_user_files/bd/design_1/ip/design_1_REG_0_0/sim/design_1_REG_0_0.v,,design_1_splitter_0_0,,,,,,,,
-/home/mada/an4/smp/lab2/lab2-smp/lab2-smp.ip_user_files/bd/design_1/sim/design_1.v,1604497397,verilog,,/home/mada/an4/smp/lab2/lab2-smp/lab2-smp.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v,,design_1,,,,,,,,
+/home/mada/an4/smp/lab2/lab2-smp/lab2-smp.ip_user_files/bd/design_1/ip/design_1_splitter_0_0/sim/design_1_splitter_0_0.v,1605097582,verilog,,/home/mada/an4/smp/lab2/lab2-smp/lab2-smp.ip_user_files/bd/design_1/ip/design_1_REG_0_0/sim/design_1_REG_0_0.v,,design_1_splitter_0_0,,,,,,,,
+/home/mada/an4/smp/lab2/lab2-smp/lab2-smp.ip_user_files/bd/design_1/sim/design_1.v,1605099092,verilog,,/home/mada/an4/smp/lab2/lab2-smp/lab2-smp.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v,,design_1,,,,,,,,
 /home/mada/an4/smp/lab2/lab2-smp/lab2-smp.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
-/home/mada/an4/smp/lab2/lab2-smp/lab2-smp.srcs/sim_1/new/test.v,1604497390,verilog,,,,test,,,,,,,,
-/home/mada/an4/smp/lab2/lab2-smp/lab2-smp.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v,1604497397,verilog,,/home/mada/an4/smp/lab2/lab2-smp/lab2-smp.srcs/sim_1/new/test.v,,design_1_wrapper,,,,,,,,
+/home/mada/an4/smp/lab2/lab2-smp/lab2-smp.srcs/sim_1/new/test.v,1605101435,verilog,,,,test,,,,,,,,
+/home/mada/an4/smp/lab2/lab2-smp/lab2-smp.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v,1605099092,verilog,,/home/mada/an4/smp/lab2/lab2-smp/lab2-smp.srcs/sim_1/new/test.v,,design_1_wrapper,,,,,,,,
 /home/mada/an4/smp/lab2/lab2-smp/lab2-smp.srcs/sources_1/new/splitter.v,1604495787,verilog,,/home/mada/an4/smp/lab2/ImprimantaToMC68000/REG.V,,splitter,,,,,,,,

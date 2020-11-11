@@ -1,2 +1,3 @@
-Vivado Simulator 2020.1
+Vivado Simulator 2020.1.1
 Time resolution is 1 ps
+$stop called at time : 250 ns : File "/home/mada/an4/smp/lab2/lab2-smp/lab2-smp.srcs/sim_1/new/test.v" Line 62
