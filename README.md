@@ -88,6 +88,8 @@ endmodule
 * ImprimantaToMC68000.rar
 * SRAMtoMC6800.rar
 
+Eu am ales ImprimantaToMC68000.
+
 2. Dezarhivezi arhiva
 
 3. Deschizi Vivado si dai Create Project
@@ -99,4 +101,15 @@ endmodule
 	* next -> finish
 5. Adaugi sursele din arhiva --> Add sources -> \*.v
 
-6.  
+#### Componente
+MC68000 	- Motorola CISC Processor
+Splitter 	- splits 16bits into lower and upper
+REG
+DecAdd
+MC68230
+
+#### Pini
+
+DTACK - Data Transfer Acknoledge
+A0–A23 - Address Bus
+D0-D15 - Data Bus

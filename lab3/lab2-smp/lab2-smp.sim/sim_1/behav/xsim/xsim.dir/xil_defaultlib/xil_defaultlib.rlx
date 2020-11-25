@@ -1,0 +1,18 @@
+0.7
+2020.1.1
+Aug  5 2020
+23:02:45
+/home/mada/an4/smp/lab3/PowerPCItoSDRAM/mpc106fsm.v,1606319280,verilog,,/home/mada/an4/smp/lab3/PowerPCItoSDRAM/powerpcfsm.v,,mpc106fsm,,,,,,,,
+/home/mada/an4/smp/lab3/PowerPCItoSDRAM/mx9_sdram.v,1606314198,verilog,,/home/mada/an4/smp/lab3/lab2-smp/lab2-smp.srcs/sources_1/new/split1.v,,mx9_sdram,,,,,,,,
+/home/mada/an4/smp/lab3/PowerPCItoSDRAM/powerpcfsm.v,1606316536,verilog,,/home/mada/an4/smp/lab3/PowerPCItoSDRAM/mx9_sdram.v,,powerpcfsm,,,,,,,,
+/home/mada/an4/smp/lab3/lab2-smp/lab2-smp.ip_user_files/bd/design_1/ip/design_1_mpc106fsm_0_0_1/sim/design_1_mpc106fsm_0_0.v,1606318230,verilog,,/home/mada/an4/smp/lab3/lab2-smp/lab2-smp.ip_user_files/bd/design_1/ip/design_1_powerpcfsm_0_0_1/sim/design_1_powerpcfsm_0_0.v,,design_1_mpc106fsm_0_0,,,,,,,,
+/home/mada/an4/smp/lab3/lab2-smp/lab2-smp.ip_user_files/bd/design_1/ip/design_1_mx9_sdram_0_0_1/sim/design_1_mx9_sdram_0_0.v,1606318230,verilog,,/home/mada/an4/smp/lab3/lab2-smp/lab2-smp.ip_user_files/bd/design_1/ip/design_1_split1_0_0_1/sim/design_1_split1_0_0.v,,design_1_mx9_sdram_0_0,,,,,,,,
+/home/mada/an4/smp/lab3/lab2-smp/lab2-smp.ip_user_files/bd/design_1/ip/design_1_powerpcfsm_0_0_1/sim/design_1_powerpcfsm_0_0.v,1606318230,verilog,,/home/mada/an4/smp/lab3/lab2-smp/lab2-smp.ip_user_files/bd/design_1/ip/design_1_mx9_sdram_0_0_1/sim/design_1_mx9_sdram_0_0.v,,design_1_powerpcfsm_0_0,,,,,,,,
+/home/mada/an4/smp/lab3/lab2-smp/lab2-smp.ip_user_files/bd/design_1/ip/design_1_split1_0_0_1/sim/design_1_split1_0_0.v,1606318230,verilog,,/home/mada/an4/smp/lab3/lab2-smp/lab2-smp.ip_user_files/bd/design_1/ip/design_1_split2_0_0_1/sim/design_1_split2_0_0.v,,design_1_split1_0_0,,,,,,,,
+/home/mada/an4/smp/lab3/lab2-smp/lab2-smp.ip_user_files/bd/design_1/ip/design_1_split2_0_0_1/sim/design_1_split2_0_0.v,1606318876,verilog,,/home/mada/an4/smp/lab3/lab2-smp/lab2-smp.ip_user_files/bd/design_1/sim/design_1.v,,design_1_split2_0_0,,,,,,,,
+/home/mada/an4/smp/lab3/lab2-smp/lab2-smp.ip_user_files/bd/design_1/sim/design_1.v,1606318876,verilog,,/home/mada/an4/smp/lab3/lab2-smp/lab2-smp.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v,,design_1,,,,,,,,
+/home/mada/an4/smp/lab3/lab2-smp/lab2-smp.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+/home/mada/an4/smp/lab3/lab2-smp/lab2-smp.srcs/sim_1/new/simulation.v,1606318215,verilog,,,,simulation,,,,,,,,
+/home/mada/an4/smp/lab3/lab2-smp/lab2-smp.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v,1606318876,verilog,,/home/mada/an4/smp/lab3/lab2-smp/lab2-smp.srcs/sim_1/new/simulation.v,,design_1_wrapper,,,,,,,,
+/home/mada/an4/smp/lab3/lab2-smp/lab2-smp.srcs/sources_1/new/split1.v,1606310939,verilog,,/home/mada/an4/smp/lab3/lab2-smp/lab2-smp.srcs/sources_1/new/split2.v,,split1,,,,,,,,
+/home/mada/an4/smp/lab3/lab2-smp/lab2-smp.srcs/sources_1/new/split2.v,1606318295,verilog,,/home/mada/an4/smp/lab3/lab2-smp/lab2-smp.ip_user_files/bd/design_1/ip/design_1_mpc106fsm_0_0_1/sim/design_1_mpc106fsm_0_0.v,,split2,,,,,,,,

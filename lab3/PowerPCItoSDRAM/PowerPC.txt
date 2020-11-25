@@ -1,0 +1,1 @@
+Interfatarea procesorului Motorola PowerPC la chipsetul MPC106.

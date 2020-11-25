@@ -1,0 +1,21 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../PowerPCItoSDRAM/mpc106fsm.v" \
+"../../../../../PowerPCItoSDRAM/powerpcfsm.v" \
+"../../../../../PowerPCItoSDRAM/mx9_sdram.v" \
+"../../../../lab2-smp.srcs/sources_1/new/split1.v" \
+"../../../../lab2-smp.srcs/sources_1/new/split2.v" \
+"../../../../lab2-smp.ip_user_files/bd/design_1/ip/design_1_mpc106fsm_0_0_1/sim/design_1_mpc106fsm_0_0.v" \
+"../../../../lab2-smp.ip_user_files/bd/design_1/ip/design_1_powerpcfsm_0_0_1/sim/design_1_powerpcfsm_0_0.v" \
+"../../../../lab2-smp.ip_user_files/bd/design_1/ip/design_1_mx9_sdram_0_0_1/sim/design_1_mx9_sdram_0_0.v" \
+"../../../../lab2-smp.ip_user_files/bd/design_1/ip/design_1_split1_0_0_1/sim/design_1_split1_0_0.v" \
+"../../../../lab2-smp.ip_user_files/bd/design_1/ip/design_1_split2_0_0_1/sim/design_1_split2_0_0.v" \
+"../../../../lab2-smp.ip_user_files/bd/design_1/sim/design_1.v" \
+"../../../../lab2-smp.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v" \
+"../../../../lab2-smp.srcs/sim_1/new/simulation.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

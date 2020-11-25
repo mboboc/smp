@@ -1,0 +1,27 @@
+Vivado Simulator 2020.1.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: /home/mada/Vivado/2020.1/bin/unwrapped/lnx64.o/xelab -wto 3e7685e416f64dc08d84c06dd017055c --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot simulation_behav xil_defaultlib.simulation xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'TT' is not connected on this instance [/home/mada/an4/smp/lab3/lab2-smp/lab2-smp.ip_user_files/bd/design_1/sim/design_1.v:40]
+WARNING: [VRFC 10-5021] port 'TT' is not connected on this instance [/home/mada/an4/smp/lab3/lab2-smp/lab2-smp.ip_user_files/bd/design_1/sim/design_1.v:68]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mpc106fsm
+Compiling module xil_defaultlib.design_1_mpc106fsm_0_0
+Compiling module xil_defaultlib.mx9_sdram
+Compiling module xil_defaultlib.design_1_mx9_sdram_0_0
+Compiling module xil_defaultlib.powerpcfsm
+Compiling module xil_defaultlib.design_1_powerpcfsm_0_0
+Compiling module xil_defaultlib.split1
+Compiling module xil_defaultlib.design_1_split1_0_0
+Compiling module xil_defaultlib.split2
+Compiling module xil_defaultlib.design_1_split2_0_0
+Compiling module xil_defaultlib.design_1
+Compiling module xil_defaultlib.design_1_wrapper
+Compiling module xil_defaultlib.simulation
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot simulation_behav
