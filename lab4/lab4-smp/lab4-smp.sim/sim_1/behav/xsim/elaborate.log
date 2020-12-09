@@ -1,0 +1,27 @@
+Vivado Simulator 2020.1.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: /home/mada/Vivado/2020.1/bin/unwrapped/lnx64.o/xelab -wto 33e1c89c87034cb3bca5b2a6183eb39f --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot simulation_behav xil_defaultlib.simulation xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/home/mada/an4/smp/lab4/DSPtoPCI/dsptopci.v" Line 2. Module arbiter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/mada/an4/smp/lab4/DSPtoPCI/dsptopci.v" Line 23. Module bus doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/mada/an4/smp/lab4/DSPtoPCI/dsptopci.v" Line 44. Module dsp doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/mada/an4/smp/lab4/DSPtoPCI/dsptopci.v" Line 2. Module arbiter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/mada/an4/smp/lab4/DSPtoPCI/dsptopci.v" Line 23. Module bus doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/mada/an4/smp/lab4/DSPtoPCI/dsptopci.v" Line 44. Module dsp doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.arbiter
+Compiling module xil_defaultlib.design_1_arbiter_0_0
+Compiling module xil_defaultlib.bus
+Compiling module xil_defaultlib.design_1_bus_0_0
+Compiling module xil_defaultlib.dsp
+Compiling module xil_defaultlib.design_1_dsp_0_0
+Compiling module xil_defaultlib.design_1
+Compiling module xil_defaultlib.design_1_wrapper
+Compiling module xil_defaultlib.simulation
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot simulation_behav

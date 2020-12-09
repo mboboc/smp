@@ -1,0 +1,12 @@
+0.7
+2020.1.1
+Aug  5 2020
+23:02:45
+/home/mada/an4/smp/lab4/DSPtoPCI/dsptopci.v,1607516620,verilog,,/home/mada/an4/smp/lab4/lab4-smp/lab4-smp.ip_user_files/bd/design_1/ip/design_1_arbiter_0_0/sim/design_1_arbiter_0_0.v,,arbiter;bus;dsp,,,,,,,,
+/home/mada/an4/smp/lab4/lab4-smp/lab4-smp.ip_user_files/bd/design_1/ip/design_1_arbiter_0_0/sim/design_1_arbiter_0_0.v,1607517289,verilog,,/home/mada/an4/smp/lab4/lab4-smp/lab4-smp.ip_user_files/bd/design_1/ip/design_1_bus_0_0/sim/design_1_bus_0_0.v,,design_1_arbiter_0_0,,,,,,,,
+/home/mada/an4/smp/lab4/lab4-smp/lab4-smp.ip_user_files/bd/design_1/ip/design_1_bus_0_0/sim/design_1_bus_0_0.v,1607517289,verilog,,/home/mada/an4/smp/lab4/lab4-smp/lab4-smp.ip_user_files/bd/design_1/ip/design_1_dsp_0_0/sim/design_1_dsp_0_0.v,,design_1_bus_0_0,,,,,,,,
+/home/mada/an4/smp/lab4/lab4-smp/lab4-smp.ip_user_files/bd/design_1/ip/design_1_dsp_0_0/sim/design_1_dsp_0_0.v,1607517289,verilog,,/home/mada/an4/smp/lab4/lab4-smp/lab4-smp.ip_user_files/bd/design_1/sim/design_1.v,,design_1_dsp_0_0,,,,,,,,
+/home/mada/an4/smp/lab4/lab4-smp/lab4-smp.ip_user_files/bd/design_1/sim/design_1.v,1607518374,verilog,,/home/mada/an4/smp/lab4/lab4-smp/lab4-smp.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v,,design_1,,,,,,,,
+/home/mada/an4/smp/lab4/lab4-smp/lab4-smp.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+/home/mada/an4/smp/lab4/lab4-smp/lab4-smp.srcs/sim_1/new/simulation.v,1607517699,verilog,,,,simulation,,,,,,,,
+/home/mada/an4/smp/lab4/lab4-smp/lab4-smp.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v,1607518374,verilog,,/home/mada/an4/smp/lab4/lab4-smp/lab4-smp.srcs/sim_1/new/simulation.v,,design_1_wrapper,,,,,,,,
