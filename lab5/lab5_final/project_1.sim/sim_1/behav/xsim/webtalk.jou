@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2020.1.1 (64-bit)
+# SW Build 2960000 on Wed Aug  5 22:57:21 MDT 2020
+# IP Build 2956692 on Thu Aug  6 01:41:30 MDT 2020
+# Start of session at: Wed Jan 20 14:27:23 2021
+# Process ID: 13679
+# Current directory: /home/mada/an4/smp/lab5/lab5_final/project_1.sim/sim_1/behav/xsim
+# Command line: wbtcv -mode batch -source /home/mada/an4/smp/lab5/lab5_final/project_1.sim/sim_1/behav/xsim/xsim.dir/test_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/mada/an4/smp/lab5/lab5_final/project_1.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: /home/mada/an4/smp/lab5/lab5_final/project_1.sim/sim_1/behav/xsim/webtalk.jou
+#-----------------------------------------------------------
+source /home/mada/an4/smp/lab5/lab5_final/project_1.sim/sim_1/behav/xsim/xsim.dir/test_behav/webtalk/xsim_webtalk.tcl -notrace
